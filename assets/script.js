@@ -20,6 +20,7 @@ $(document).ready(function() {
             method: "GET"
           })
             .then(function(response) {
+                console.log(response);
 
 
 
