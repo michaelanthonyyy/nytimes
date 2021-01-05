@@ -20,6 +20,7 @@ $(document).ready(function() {
             method: "GET"
           })
             .then(function(response) {
+                console.log(queryURL);
                 console.log(response);
 
 
@@ -31,6 +32,6 @@ $(document).ready(function() {
 
 
 
-    $("#search").on("click", search);
+    $(".fa-search").on("click", search);
 
 });
